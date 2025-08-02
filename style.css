@@ -1,0 +1,44 @@
+/* Corrected heading selector */
+h1 {
+  text-align: center;
+  background-color: #797978;
+  padding: 15px 0;
+  color: white;
+}
+
+/* Main Flex Container */
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally center the two columns */
+  align-items: flex-start; /* Align columns to the top */
+  gap: 30px; /* Creates space between the two columns */
+  padding: 20px; /* Adds some space around the container */
+}
+
+.b{
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #000;
+    border: #000 solid 2px;
+    padding:10px;
+}
+/* Styling for each column */
+.column {
+  /* Each column will take up an equal amount of space */
+  flex: 1; 
+  max-width: 500px; /* Optional: Prevents columns from getting too wide */
+}
+
+/* Makes the image responsive within its column */
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#weight-guide {
+  margin-top: 20px;
+  background-color: #f0f0f0; /* Light background for contrast */
+  padding: 20px; /* Adds space inside the weight guide */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  border:#000 solid 2px; /* Border for definition */
+}
