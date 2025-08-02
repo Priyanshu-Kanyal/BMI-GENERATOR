@@ -43,5 +43,5 @@ form.addEventListener('submit', function(event) {
     results.style.backgroundColor = "#f0f8ff";
 
     // Display the final result
-    results.innerHTML = `Your BMI is ${bmi.toFixed(2)}. You are classified as: ${category}.`;
+    results.textContent = `Your BMI is ${bmi.toFixed(2)}. You are classified as: ${category}.`;
 });
